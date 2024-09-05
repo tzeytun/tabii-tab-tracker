@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+body {
+    margin: 0;
+    padding: 10px;
+    font-family: "Ubuntu", sans-serif;
+    min-width: 400px;
+}
+
+h1 {
+    font-family: "Montserrat", sans-serif;
+    color: #b108e5;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    border: 1px solid #b108e5;
+    margin-bottom: 4px;
+}
+
+button {
+    font-family: "Ubuntu", sans-serif;
+    background: #b108e5;
+    color: white;
+    padding: 10px 20px;
+    border: 1px solid #b108e5;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+button:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+#delete-btn:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+
+#delete-btn {
+    background: white;
+    color: #b108e5;
+    cursor: pointer;
+}
+
+ul {
+    margin-top: 20px;
+    list-style: none;
+    padding-left: 0;
+}
+
+li {
+    margin-top: 5px;
+}
+
+a {
+    color: #b108e5;
+}
+
+
